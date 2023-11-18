@@ -5,8 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: white;
+        }
+        .redirect {
+            color: black;
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <a class="redirect" href="home.html">Back to Search</a>
+    </nav>
+
+    <header>
+        <p id="redText">Advanced Search</ps>
+    </header>
+    <hr>
+    
+    <p class="subtext">Find pages with...</p>
+    <div class="fields">
+        <p class="fieldtext">all these words:</p>
+        <input class="fieldinput" type="text">
+    </div>
+    <div class="fields">
+        <p class="fieldtext">this exact word or phrase:</p>
+        <input class="fieldinput" type="text">
+    </div>
+    <div class="fields">
+        <p class="fieldtext">any of these words:</p>
+        <input class="fieldinput" type="text">
+    </div>
+    <div class="fields">
+        <p class="fieldtext">none of these words:</p>
+        <input class="fieldinput" type="text">
+    </div>
     
 </body>
 </html>

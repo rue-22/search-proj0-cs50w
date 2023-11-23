@@ -25,22 +25,31 @@
     <hr>
     
     <p class="subtext">Find pages with...</p>
-    <div class="fields">
-        <p class="fieldtext">all these words:</p>
-        <input class="fieldinput" type="text">
-    </div>
-    <div class="fields">
-        <p class="fieldtext">this exact word or phrase:</p>
-        <input class="fieldinput" type="text">
-    </div>
-    <div class="fields">
-        <p class="fieldtext">any of these words:</p>
-        <input class="fieldinput" type="text">
-    </div>
-    <div class="fields">
-        <p class="fieldtext">none of these words:</p>
-        <input class="fieldinput" type="text">
-    </div>
+    <form action="https://google.com/search" name="f">
+        <div class="rowGenerator">
+            <div class="fieldtext">
+                <p>all these words:</p>
+                <p>this exact word or phrase:</p>
+                <p>any of these words:</p>
+                <p>none of these words:</p>
+                <p>numbers ranging from:</p>
+            </div>
+            <div class="inputFields">
+                <input class="rowPart" type="text" name="as_q">
+                <input class="rowPart" type="text" name="as_epq">
+                <input class="rowPart" type="text" name="as_oq">
+                <input class="rowPart" type="text" name="as_eq">
+                <div class="rowPart">
+                    <input class="numField" type="text" name="as_nlo">
+                    <p>to</p>
+                    <input class="numField" type="text" name="as_nhi">
+                </div>
+            </div>
+            
+        </div>
+        
+        <input id="advSearch" type="submit" value="Advanced Search">
+    </form>
     
 </body>
 </html>

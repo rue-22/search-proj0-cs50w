@@ -28,7 +28,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 28em;
 }
 
 .logo {
@@ -53,15 +53,15 @@ main {
     font-size: 18px;
     color: rgb(255, 255, 255);
     background-color: rgb(32, 33, 36);
-    padding-left: 50px;
-    width: 450px;
-    height: 40px;
+    padding-left: 5%;
     border-radius: 10px;
     border-width: 0.2px;
     border-color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 15px;
+    width: 60%;
 }
 
 .clickables {
@@ -152,6 +152,9 @@ main {
 }
 
 form {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 50%;
 }
